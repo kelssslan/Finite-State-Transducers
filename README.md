@@ -23,7 +23,10 @@ Create and use finite-state transducers by performing the following tasks:
 3) reconstructUpper(l, F): Print the set of upper strings associated with lower string l by FST F.
 4) reconstructLower(u, F): Print the set of lower strings associated with upper string u by FST F.
 
-FSTs: 
 
+**
+FSTs: 
+**
 vcePlu.fst: Change a plural morpheme [s] to [z] if the final sound in a word is voiced, e.g., [podPs] becomes [podPz].
+
 addVowPlu.fst Add a vowel [e] immediately before the final plural morpheme if the final sound in the word is a fricative, e.g., [diSPs] becomes [diSPes].
